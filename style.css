@@ -16,6 +16,7 @@
     background-color: darkblue;
     display: flex;
     justify-content: space-between;
+    margin: 10px 10px;
 }
 
 #top_center_left {
@@ -52,17 +53,18 @@
 }
 
 #info {
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: black;
     display: flex;
     flex-direction: column;
+    margin: 10px 10px;
 }
 
 #info_top {
     width: 100%;
     height: 70px;
-    background-color: grey;
+    background-color: cyan;
 }
 
 #info_bottom {
@@ -72,11 +74,12 @@
 }
 
 #edu {
-    width: 100%;
+    width: auto;
     height: 300px;
     background-color: green;
     display: flex;
     flex-direction: column;
+    margin: 10px 10px
 }
 
 #edu_top {
@@ -100,15 +103,18 @@
 }
 
 #connection_requests {
-    width: 100%;
+    width: auto;
     height: 200px;
     background-color: orange;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
 }
 
 #connection_requests_top {
     width: 100%;
     height: 70px;
-    background-color: white;
+    background-color: grey;
 }
 
 #connection_requests_bottom {
@@ -118,11 +124,12 @@
 }
 
 #your_connections {
-    width: 100%;
+    width: auto;
     height: 200px;
-    background-color: yellow;
+    background-color: green;
     display: flex;
     flex-direction: column;
+    margin: 10px 10px;
 }
 
 #your_connections_top {
