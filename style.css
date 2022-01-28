@@ -3,14 +3,14 @@
     padding: 0px;
 }
 
-#top{
-    height: 100px;
+#top {
+    height: 70px;
     background-color: grey;
     display: flex;
     justify-content: center;
 }
 
-#top_center{
+#top_center {
     height: auto;
     width: 700px;
     background-color: darkblue;
@@ -18,39 +18,120 @@
     justify-content: space-between;
 }
 
-#top_center_left{
+#top_center_left {
     height: auto;
     width: 80%;
     background-color: lightblue;
 }
 
-#top_center_right{
+#top_center_right {
     height: auto;
     width: 20%;
     background-color: black;
 }
 
-#bottom{
+#bottom {
     height: 1000px;
     background-color: red;
     display: flex;
     justify-content: center;
 }
 
-#bottom_center{
+#bottom_center {
     width: 700px;
     background-color: orange;
     display: flex;
 }
 
-#bottom_center_left{
+#bottom_center_left {
     width: 65%;
     height: auto;
     background-color: blue;
+    display: flex;
+    flex-direction: column;
 }
 
-#bottom_center_right{
+#info {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#info_top {
+    width: 100%;
+    height: 70px;
+    background-color: grey;
+}
+
+#info_bottom {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+#edu {
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+#edu_top {
+    width: 100%;
+    height: 70px;
+    background-color: grey;
+}
+
+#edu_bottom {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#bottom_center_right {
     width: 35%;
     height: auto;
     background-color: purple;
+    display: flex;
+    flex-direction: column;
+}
+
+#connection_requests {
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+}
+
+#connection_requests_top {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+#connection_requests_bottom {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#your_connections {
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+#your_connections_top {
+    width: 100%;
+    height: 70px;
+    background-color: grey;
+}
+#your_connections_bottom {
+    width: 100%;
+    height: 100%;
+    background-color: black;
 }
