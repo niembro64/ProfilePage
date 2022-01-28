@@ -230,41 +230,65 @@ li {
 }
 
 #connection_requests_bottom {
-    width: 100%;
+    width: auto;
     height: 100%;
     background-color: black;
 }
 
 .con_ele {
     width: auto;
-    height: auto;
+    height: 45px;
     border-color: blue;
     display: flex;
 }
 
 .con_ele_left {
-    width: 47px;
-    height: 45px;
+    flex: 1;
+    height: auto;
     background: orange;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .small_user_circle{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 }
 
 .con_ele_middle {
-    flex: 1;
-    height: 45px;
+    flex: 2;
+    height: auto;
     background: green;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
 }
 .con_ele_right {
-    flex: 1;
-    height: 45px;
-    background: blue;
+    flex: 2;
+    height: auto;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.check{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 2px 5px;
+    color: white;
+    border-width: 0px;
+}
+
+.check:hover{
+    background-color: green;
+}
+
+.check:active{
+    background-color: pink;
 }
 
 #your_connections {
@@ -291,27 +315,47 @@ h1 {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bolder;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
 h2 {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bolder;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
 h3 {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: smaller;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
 p {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: smaller;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
 li {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: smaller;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
