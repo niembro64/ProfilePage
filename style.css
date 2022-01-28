@@ -16,19 +16,20 @@
     background-color: darkblue;
     display: flex;
     justify-content: space-between;
-    margin: 10px 10px;
 }
 
 #top_center_left {
     height: auto;
     width: 80%;
     background-color: lightblue;
+    margin: 10px 10px;
 }
 
 #top_center_right {
     height: auto;
     width: 20%;
     background-color: black;
+    margin: 10px 10px;
 }
 
 #bottom {
