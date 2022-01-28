@@ -28,14 +28,13 @@
     justify-items: space-between;
 }
 
-#top_options{
+#top_options {
     display: flex;
     list-style-type: none;
     margin: 20px;
-
 }
 
-li{
+li {
     margin: 10px;
 }
 
@@ -49,11 +48,12 @@ li{
     justify-content: right;
 }
 
-#signout{
+#signout {
     border-radius: 3px;
     background-color: cyan;
     padding: 3px 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bolder;
 }
 
@@ -93,7 +93,7 @@ li{
     background-color: cyan;
 }
 
-#user_circle{
+#user_circle {
     height: 70px;
     width: 70px;
     background-color: green;
@@ -108,7 +108,43 @@ li{
 #info_bottom {
     width: 100%;
     height: 200px;
+    background-color: white;
+}
+
+#info_bottom_text {
+    margin: 50px 0px 0px 50px;
+    color: black;
+}
+
+#info_bottom_text_loc {
+    height: auto;
+    color: black;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+#pointer {
+    margin: 0px 10px 0px 0px;
+    height: 20px;
+}
+
+#edit{
+    height: 25px;
     background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#gearboy{
+    width: auto;
+    height: auto;
+    margin: 0px 10px 0px 0px;
+}
+
+#edit_profile{
+    color: rgb(43,120,228);
 }
 
 #edu {
@@ -117,7 +153,7 @@ li{
     background-color: green;
     display: flex;
     flex-direction: column;
-    margin: 10px 10px
+    margin: 10px 10px;
 }
 
 #edu_top {
@@ -181,15 +217,24 @@ li{
     background-color: black;
 }
 
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bolder;
 }
-h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h2 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bolder;
 }
-h3{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h3 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bolder;
+}
+p {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: smaller;
 }
