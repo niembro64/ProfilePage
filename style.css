@@ -5,7 +5,7 @@
 
 #top {
     height: 70px;
-    background-color: grey;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
 }
@@ -13,7 +13,7 @@
 #top_center {
     height: auto;
     width: 700px;
-    background-color: darkblue;
+    background-color: rgba(0, 0, 139, 0);
     display: flex;
     justify-content: space-between;
 }
@@ -21,11 +21,16 @@
 #top_center_left {
     height: auto;
     width: 80%;
-    background-color: lightblue;
+    background-color: rgba(173, 216, 230, 0);
     margin: 10px 10px;
     display: flex;
     align-items: center;
     justify-items: space-between;
+}
+
+#ppp{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #top_options {
@@ -41,7 +46,7 @@ li {
 #top_center_right {
     height: auto;
     width: 20%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     margin: 10px 10px;
     display: flex;
     align-items: center;
@@ -50,30 +55,31 @@ li {
 
 #signout {
     border-radius: 3px;
-    background-color: cyan;
+    background-color: blue;
     padding: 3px 20px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bolder;
+    color: white;
 }
 
 #bottom {
     height: 1000px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0);
     display: flex;
     justify-content: center;
 }
 
 #bottom_center {
     width: 700px;
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0);
     display: flex;
 }
 
 #bottom_center_left {
     width: 65%;
     height: auto;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0);
     display: flex;
     flex-direction: column;
 }
@@ -81,22 +87,25 @@ li {
 #info {
     width: auto;
     height: auto;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     display: flex;
     flex-direction: column;
     margin: 10px 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
 }
 
 #info_top {
     width: 100%;
     height: 70px;
-    background-color: cyan;
+    background-color: blue;
 }
 
 #user_circle {
     height: 70px;
     width: 70px;
-    background-color: green;
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     padding: 6px;
     position: relative;
@@ -108,13 +117,13 @@ li {
 #info_bottom {
     width: 100%;
     height: 200px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 #info_bottom_text {
     margin: 50px 0px 0px 50px;
     color: black;
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 0);
 }
 
 #info_bottom_text_loc {
@@ -122,7 +131,7 @@ li {
     color: black;
     display: flex;
     align-items: center;
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0);
 }
 
 #pointer {
@@ -132,7 +141,7 @@ li {
 
 #edit {
     height: 25px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -151,16 +160,19 @@ li {
 #edu {
     width: auto;
     height: 300px;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0);
     display: flex;
     flex-direction: column;
     margin: 10px 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
 }
 
 #grey_top {
     width: auto;
     height: 70px;
-    background-color: grey;
+    background-color: rgb(54, 54, 54);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -169,7 +181,7 @@ li {
 #grey_top_left {
     height: 100%;
     width: 57px;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,7 +199,8 @@ li {
 #grey_top_right {
     height: 100%;
     width: 100%;
-    background-color: red;
+    background-color: rgba(29, 29, 29, 0);
+    color: white;
     padding: 0px;
     display: flex;
     align-items: center;
@@ -198,18 +211,18 @@ li {
 #edu_bottom {
     width: auto;
     height: 100%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 #edu_bottom_tabbed {
     margin: 30px 0px 0px 50px;
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 0);
 }
 
 #bottom_center_right {
     width: 35%;
     height: auto;
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 0);
     display: flex;
     flex-direction: column;
 }
@@ -217,10 +230,13 @@ li {
 #connection_requests {
     width: auto;
     height: 200px;
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0);
     display: flex;
     flex-direction: column;
     margin: 10px 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
 }
 
 #connection_requests_top {
@@ -232,20 +248,20 @@ li {
 #connection_requests_bottom {
     width: auto;
     height: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .con_ele {
     width: auto;
     height: 45px;
-    border-color: blue;
+    border-color: rgba(0, 0, 255, 0);
     display: flex;
 }
 
 .con_ele_left {
     flex: 1;
     height: auto;
-    background: orange;
+    background: rgba(255, 166, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -259,7 +275,7 @@ li {
 .con_ele_middle {
     flex: 2;
     height: auto;
-    background: green;
+    background: rgba(0, 128, 0, 0);
     display: flex;
     align-items: center;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -269,7 +285,7 @@ li {
 .con_ele_right {
     flex: 2;
     height: auto;
-    background: orange;
+    background: rgba(255, 166, 0, 0);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -284,31 +300,34 @@ li {
 }
 
 .check:hover {
-    background-color: green;
+    background-color: rgba(34, 113, 34, 0.442);
 }
 
 .check:active {
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0);
 }
 
 #your_connections {
     width: auto;
     height: 300px;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0);
     display: flex;
     flex-direction: column;
     margin: 10px 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
 }
 
 #your_connections_top {
     width: 100%;
     height: 70px;
-    background-color: grey;
+    background-color: rgb(19, 9, 9);
 }
 #your_connections_bottom {
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 h1 {
@@ -354,15 +373,16 @@ li {
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: smaller;
-    color: black;
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     display: flex;
     align-items: center;
 }
 
-a{
-background-color: white;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: blue;
-font-weight: bolder;
+a {
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: blue;
+    font-weight: bolder;
 }
